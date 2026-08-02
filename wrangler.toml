@@ -1,0 +1,6 @@
+name = "videasy-proxy1"
+main = "src/index.js"
+compatibility_date = "2024-11-11"
+
+# Deploys to https://videasy-proxy.<your-subdomain>.workers.dev
+# Rename `name` above to change the worker URL.

@@ -1,0 +1,14 @@
+{
+  "name": "videasy-proxy1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker reverse-proxy for player.videasy.to that strips the ab.js ad script.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
